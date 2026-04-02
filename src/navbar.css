@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════════════════
-   Navbar.css  —  Black & White  —  Landscape aware
+   Navbar.css  —  Black & White
    ════════════════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;500;600;700&display=swap');
@@ -312,7 +312,6 @@
    Media Queries
    ════════════════════════════════════════════════════ */
 
-/* Portrait mobile */
 /* Mobile */
 @media (max-width: 768px) {
     .navbar__links        { display: none; }
@@ -336,15 +335,6 @@
     .navbar__right-mobile { display: none; }
     .navbar__links        { display: flex; }
     .navbar__links li     { display: flex; }
-    .navbar__mobile       { display: none !important; }
-    .navbar__backdrop     { display: none !important; }
-    .navbar__inner        { padding: 0 50px; }
-}
-/* Desktop portrait */
-@media (min-width: 769px) and (orientation: portrait) {
-    .navbar__hamburger    { display: none; }
-    .navbar__right-mobile { display: none; }
-    .navbar__links        { display: flex; }
     .navbar__mobile       { display: none !important; }
     .navbar__backdrop     { display: none !important; }
     .navbar__inner        { padding: 0 50px; }
